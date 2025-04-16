@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { faqs } from "../../utils/data/faq";
-import { FiHelpCircle } from "react-icons/fi";
-import { HiChevronDown, HiChevronUp } from "react-icons/hi";
+import { HiChevronDown } from "react-icons/hi";
 import { AnimatePresence, motion } from "framer-motion";
 const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState<any>(null);
